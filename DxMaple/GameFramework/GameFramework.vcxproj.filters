@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Etc">
+      <UniqueIdentifier>{128c77cc-a8ff-4056-b215-76d70215c5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{96b3faac-ec7e-415c-aade-5cfec61c4ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{4361c535-b76e-41a3-be95-50c5909bff99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ECS">
+      <UniqueIdentifier>{3dd40452-dbf2-4003-a944-a17f3b22d594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Json">
+      <UniqueIdentifier>{326f106e-0ed4-4169-b9ec-fe9c7f57f214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers">
+      <UniqueIdentifier>{eae69b83-5e01-491c-afe2-5f6e18080663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\EntityManager">
+      <UniqueIdentifier>{4740f6d0-d659-465c-bfd4-6597c4e821fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager">
+      <UniqueIdentifier>{88926468-5d06-40bc-9225-cf4c09c91969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement">
+      <UniqueIdentifier>{ffdd9b00-e81a-41cc-ac08-5c77d72b256b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement\Resources">
+      <UniqueIdentifier>{8aa15bef-0057-458a-a33d-6eddd458e502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement\Resources\Buffer">
+      <UniqueIdentifier>{b3c11a60-bfcb-466b-8516-edee296dfedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\InputManager">
+      <UniqueIdentifier>{363151d6-450e-4acb-a8e2-3d6ca0359194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components">
+      <UniqueIdentifier>{fe2a82ce-6e7a-430b-b3b7-bbf01248281f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Transform">
+      <UniqueIdentifier>{b08d6d62-b02f-480f-a200-78bce5ebb04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\AtlasAnimation">
+      <UniqueIdentifier>{0a475fb1-c9b0-4df6-b294-b82c843004e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Camera">
+      <UniqueIdentifier>{ac89b72d-bf70-4059-9957-10f732fce330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour">
+      <UniqueIdentifier>{2e392a5c-cc6d-4105-943e-798a6fe176d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\PlayerController">
+      <UniqueIdentifier>{df702c20-fc0f-405e-a51f-867ad21abcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\StateMachine">
+      <UniqueIdentifier>{02a60cb2-dfc7-447b-9feb-e83a9803ebcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.State">
+      <UniqueIdentifier>{f8728f1c-d708-4eb4-b7b2-f463f3a1faa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.DesignPattern">
+      <UniqueIdentifier>{d575efe9-b12f-414e-8258-75dbd40097a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.DesignPattern\ObjectPool">
+      <UniqueIdentifier>{32d55477-36d9-4fe8-91c2-2457d1bf2ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\TimeManager">
+      <UniqueIdentifier>{1ecf74bc-99c2-45bb-a822-31db57e7fc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\SceneManager">
+      <UniqueIdentifier>{419d7a5a-c9a2-41b9-a5d7-ac9a446bac9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement\Resources\Text">
+      <UniqueIdentifier>{64cbcd48-e472-42cc-9008-def05426b06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Scene">
+      <UniqueIdentifier>{7237f439-ecba-4b78-a9e2-cb03008fa640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Scene\TestScene">
+      <UniqueIdentifier>{df37caad-13a1-450e-a9f3-52ab532fa145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement\Resources\Shader">
+      <UniqueIdentifier>{c6833c25-1061-4cd3-96f7-d154f8254d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.ShaderFiles">
+      <UniqueIdentifier>{581b83b8-e1e5-41aa-852a-151ea9803a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\RenderTarget">
+      <UniqueIdentifier>{0b36e004-ec09-4ed5-bcda-a297afcfc97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\BoxCollider">
+      <UniqueIdentifier>{09d349d6-ccb9-4f57-9b1d-2195511422fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Rigidbody">
+      <UniqueIdentifier>{3a24f582-73b9-4e85-a9d6-3190e58af639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\DeviceManager\ResourceMangement\Resources\Texture">
+      <UniqueIdentifier>{baad5f94-abd7-4fc0-b9d5-765e3a5cfa74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Sprite">
+      <UniqueIdentifier>{1bebce5e-be75-4df0-9560-de677b37a900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Map">
+      <UniqueIdentifier>{2fbfa1c2-27d4-43e9-aefa-3327d5c0ca89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy">
+      <UniqueIdentifier>{a362d60c-1735-45ad-bc35-da0c8ea9b540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers\GameManager">
+      <UniqueIdentifier>{b8f40d02-5636-4aac-8ba2-eb10d15bb295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Sound">
+      <UniqueIdentifier>{62dc53ac-14cb-48e2-a376-0249a8a9df86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\UI">
+      <UniqueIdentifier>{dbfeab11-6f3b-4f04-b5f6-02bea53dfb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\UI\Font">
+      <UniqueIdentifier>{df3edb21-2dfb-4c5a-8a44-299d00c208fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Status">
+      <UniqueIdentifier>{813fb434-8114-449c-b7bb-a08fe80def67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.MathManager">
+      <UniqueIdentifier>{6a6d0097-d16c-42b8-9761-c905b98d37f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Weapon">
+      <UniqueIdentifier>{c259ed55-6279-438f-8b83-9188017fb38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Skill">
+      <UniqueIdentifier>{39810321-f844-4abb-a889-213654400496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\TestController">
+      <UniqueIdentifier>{bb44282e-c072-4fbf-9f4c-5eb781938536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Scene\Gyeongbeen">
+      <UniqueIdentifier>{f86987c3-2f0f-4925-8e12-d50aad9c96a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93.ExcelLoader">
+      <UniqueIdentifier>{8ed5b9fc-82e2-4ae9-ae3e-21187af8f8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.State\PlayerState">
+      <UniqueIdentifier>{61808230-3c5e-4110-be3a-8d32ea548fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.State\EnemyState">
+      <UniqueIdentifier>{73610ead-be67-410c-9546-2597b4f1beee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.State\EnemyState\GrimSeeker">
+      <UniqueIdentifier>{fd7cec29-28bb-4796-9d90-16433a09ace1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy\Boss">
+      <UniqueIdentifier>{e1574cb1-616f-4aa5-96eb-b5d16c51ec07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.DesignPattern\ThreadPool">
+      <UniqueIdentifier>{8a6d6f97-8cdf-45af-a75e-de800abd9bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\UIForm">
+      <UniqueIdentifier>{834534f9-fad4-4923-bc91-95f87cc4e2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Mouse">
+      <UniqueIdentifier>{9161581e-8ba1-4902-adba-0f408c0626f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Ray">
+      <UniqueIdentifier>{fffe5e67-0feb-49d7-b20c-91ebba59577d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.State\EnemyState\BossState">
+      <UniqueIdentifier>{71a4a6a0-8cf2-40fd-b3dd-16a549886da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\UI">
+      <UniqueIdentifier>{99d4b382-25e7-4d58-8236-b5f58258efad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\AttackBox">
+      <UniqueIdentifier>{fcddb763-6c41-4966-9cee-6b8039129e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Effect">
+      <UniqueIdentifier>{960edf26-f8f3-4592-9332-831ff8877b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\TargetBox">
+      <UniqueIdentifier>{e94f6851-063e-4086-8eca-e344b7a7d6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy\HornTail">
+      <UniqueIdentifier>{e33ac68f-5d59-4f06-adcb-028cafc4f60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy\HornTail\HornTailRight">
+      <UniqueIdentifier>{94caacae-7144-4359-af41-789eabab8814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy\HornTail\HornTailLeft">
+      <UniqueIdentifier>{62a873a9-78de-47d4-8335-4ff5fb6abfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Item">
+      <UniqueIdentifier>{f81c5b52-7a4f-41b6-9307-7d2057fccc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Item">
+      <UniqueIdentifier>{ddfe2969-559e-4bbb-b2f8-937c5f530e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\NPC">
+      <UniqueIdentifier>{4c930f8b-2bf2-46c7-b70b-e9084b3960ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MonoBehaviour\Enemy\CRIMSON">
+      <UniqueIdentifier>{d7c0ecb8-b7a9-432e-b182-2c811412733f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{22179967-2949-4f56-9c7e-7f63377bd650}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>01.ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>02.Managers\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>03.Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>02.Managers\DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>02.Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagement.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasLoader.h">
+      <Filter>03.Components\AtlasAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>97.Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>97.Json</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasAnimation.h">
+      <Filter>03.Components\AtlasAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentsHeader.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>04.MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviourHeader.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>03.Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>03.Components\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>03.Components\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>96.DesignPattern\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>02.Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>02.Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>02.Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02.Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>02.Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>06.Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>02.Managers\DeviceManager\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>03.Components\BoxCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>03.Components\BoxCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="TestController.h">
+      <Filter>04.MonoBehaviour\TestController</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>03.Components\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>03.Components\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Wooseok.h">
+      <Filter>06.Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gyeongbeen.h">
+      <Filter>06.Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gyumin.h">
+      <Filter>06.Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>02.Managers\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>03.Components\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="MathManager.h">
+      <Filter>94.MathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>03.Components\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundState.h">
+      <Filter>03.Components\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFont.h">
+      <Filter>03.Components\UI\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBasic.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponStatus.h">
+      <Filter>03.Components\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>04.MonoBehaviour\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponEffect.h">
+      <Filter>04.MonoBehaviour\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>03.Components\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Room1.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="Room2.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="Room3.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedRoom.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelLoader.h">
+      <Filter>93.ExcelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>96.DesignPattern\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherPlayerController.h">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWindow.h">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UILabel.h">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UIState.h">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>04.MonoBehaviour\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>03.Components\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyUI.h">
+      <Filter>04.MonoBehaviour\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Nenguard.h">
+      <Filter>04.MonoBehaviour\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBox.h">
+      <Filter>04.MonoBehaviour\AttackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEffect.h">
+      <Filter>04.MonoBehaviour\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonEffect.h">
+      <Filter>04.MonoBehaviour\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Room4.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="Room5.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FarBackGround.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherAttackBox.h">
+      <Filter>04.MonoBehaviour\AttackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherEnemyController.h">
+      <Filter>04.MonoBehaviour\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherEffect.h">
+      <Filter>04.MonoBehaviour\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterState.h">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource1.h">
+      <Filter>99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetBox.h">
+      <Filter>04.MonoBehaviour\TargetBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>04.MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniPortal.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CrimsonState.h">
+      <Filter>04.MonoBehaviour\Enemy\CRIMSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Crimson.h">
+      <Filter>04.MonoBehaviour\Enemy\CRIMSON</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomAirport.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTail.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTailState.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTailLeft.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTailRight.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailRight</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTailLeftState.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTailRightState.h">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailRight</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemComponent.h">
+      <Filter>03.Components\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DNFUI.h">
+      <Filter>04.MonoBehaviour\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemShop.h">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BounDary.h">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1.h">
+      <Filter>04.MonoBehaviour\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="RoomCash.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBlue2.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBlue1.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBlue3.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="BUFF.h">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBlue2_2.h">
+      <Filter>06.Scene\Gyeongbeen</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSuriGum.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonEnemy.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonEnemyState.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyUI.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>02.Managers\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>02.Managers\DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>02.Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagement.cpp">
+      <Filter>02.Managers\DeviceManager\ResourceMangement</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>97.Json</Filter>
+    </ClCompile>
+    <ClCompile Include="AtlasAnimation.cpp">
+      <Filter>03.Components\AtlasAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>04.MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>03.Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>03.Components\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>02.Managers\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02.Managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>02.Managers\DeviceManager\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>03.Components\BoxCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="TestController.cpp">
+      <Filter>04.MonoBehaviour\TestController</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>03.Components\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>03.Components\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>02.Managers\DeviceManager\ResourceMangement\Resources\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>03.Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>03.Components\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>02.Managers\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MathManager.cpp">
+      <Filter>94.MathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>03.Components\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFont.cpp">
+      <Filter>03.Components\UI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBasic.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponStatus.cpp">
+      <Filter>03.Components\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>04.MonoBehaviour\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponEffect.cpp">
+      <Filter>04.MonoBehaviour\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>03.Components\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelLoader.cpp">
+      <Filter>93.ExcelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherPlayerController.cpp">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClCompile>
+    <ClCompile Include="UILabel.cpp">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWindow.cpp">
+      <Filter>04.MonoBehaviour\UIForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>04.MonoBehaviour\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>03.Components\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyUI.cpp">
+      <Filter>04.MonoBehaviour\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Nenguard.cpp">
+      <Filter>04.MonoBehaviour\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBox.cpp">
+      <Filter>04.MonoBehaviour\AttackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEffect.cpp">
+      <Filter>04.MonoBehaviour\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonEffect.cpp">
+      <Filter>04.MonoBehaviour\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FarBackGround.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherAttackBox.cpp">
+      <Filter>04.MonoBehaviour\AttackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherEnemyController.cpp">
+      <Filter>04.MonoBehaviour\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherEffect.cpp">
+      <Filter>04.MonoBehaviour\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterState.cpp">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetBox.cpp">
+      <Filter>04.MonoBehaviour\TargetBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>04.MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniPortal.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CrimsonState.cpp">
+      <Filter>04.MonoBehaviour\Enemy\CRIMSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Crimson.cpp">
+      <Filter>04.MonoBehaviour\Enemy\CRIMSON</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTail.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTailState.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTailLeft.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTailRight.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailRight</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTailLeftState.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTailRightState.cpp">
+      <Filter>04.MonoBehaviour\Enemy\HornTail\HornTailRight</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemComponent.cpp">
+      <Filter>03.Components\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DNFUI.cpp">
+      <Filter>04.MonoBehaviour\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemShop.cpp">
+      <Filter>04.MonoBehaviour\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BounDary.cpp">
+      <Filter>04.MonoBehaviour\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1.cpp">
+      <Filter>04.MonoBehaviour\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="BUFF.cpp">
+      <Filter>04.MonoBehaviour\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSuriGum.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonEnemy.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonEnemyState.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyUI.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameFramework.ico">
+      <Filter>99.Etc</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Etc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameFramework.rc">
+      <Filter>99.Etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Etc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\ShaderFiles\AtlasShader.fx">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\screenShader.fx">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\DebugShader.fx">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\TextureShader.fx">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\StatusShader.fx">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

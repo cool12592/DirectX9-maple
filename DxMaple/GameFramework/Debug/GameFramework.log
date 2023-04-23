@@ -1,0 +1,7 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+E:\??��??svn4\GameFramework\ShaderFiles\AtlasShader.fx(98,14): error X5608: Compiled shader code uses too many arithmetic instruction slots (183). Max. allowed by the target (ps_2_0) is 64. Consider increasing optimization level to reduce instruction count.
+FXC(1,1): error X5609: Compiled shader code uses too many instruction slots (192). Max. allowed by the target (ps_2_0) is 96.
+  E:\??��??svn4\GameFramework\ShaderFiles\AtlasShader.fx(122,17-40): ID3DXEffectCompiler::CompileEffect: There was an error compiling expression
+  ID3DXEffectCompiler: Compilation failed
+  
+  compilation failed; no code produced
